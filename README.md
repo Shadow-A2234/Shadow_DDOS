@@ -30,6 +30,7 @@ python shadow_ddos.py -d <target_url/ip> [options]
 Examples:
 HTTP Request Flood:
 ```bash
+Bash
 python shadow_ddos.py -d [www.example.com](https://www.example.com) -T 2000 -Request
 SYN Flood (Requires Root/Sudo):
 
